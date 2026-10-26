@@ -1,0 +1,2172 @@
+[
+  {
+    "actividad": "Todos los correos",
+    "consulta": "SELECT * FROM email",
+    "columnas": [
+      "id",
+      "subject",
+      "sender",
+      "folder",
+      "starred",
+      "read",
+      "received"
+    ],
+    "filas": [
+      [
+        1,
+        "Helena is here at hand",
+        "puck@example.com",
+        "spam",
+        0,
+        1,
+        1665556551
+      ],
+      [
+        2,
+        "Do I entice you?",
+        "demetrius@example.com",
+        "inbox",
+        0,
+        0,
+        1665727707
+      ],
+      [
+        3,
+        "Here is the scroll of every mans name",
+        "quince@example.com",
+        "inbox",
+        1,
+        1,
+        1665233914
+      ],
+      [
+        4,
+        "How now, spirit! whither wander you?",
+        "puck@example.com",
+        "inbox",
+        0,
+        1,
+        1665735460
+      ],
+      [
+        5,
+        "I know not by what power I am made bold",
+        "hermia@example.com",
+        "spam",
+        0,
+        1,
+        1665209151
+      ],
+      [
+        6,
+        "this is a knavery of them to make me afeard",
+        "bottom@example.com",
+        "inbox",
+        0,
+        1,
+        1665706846
+      ],
+      [
+        7,
+        "let it be written in eight and eight",
+        "bottom@example.com",
+        "inbox",
+        0,
+        1,
+        1665314896
+      ],
+      [
+        8,
+        "Here, Peter Quince.",
+        "snout@example.com",
+        "inbox",
+        0,
+        1,
+        1665507833
+      ],
+      [
+        9,
+        "A calendar, a calendar! look in the almanac",
+        "bottom@example.com",
+        "inbox",
+        0,
+        1,
+        1665189157
+      ],
+      [
+        10,
+        "the duke is coming from the temple",
+        "snug@example.com",
+        "inbox",
+        0,
+        1,
+        1665393161
+      ],
+      [
+        11,
+        "He says they can do nothing in this kind.",
+        "hippolytus@example.com",
+        "inbox",
+        0,
+        1,
+        1665224532
+      ],
+      [
+        12,
+        "Never did mockers waste more idle breath.",
+        "helena@example.com",
+        "spam",
+        1,
+        1,
+        1665534357
+      ],
+      [
+        13,
+        "Farewell, sweet playfellow: pray thou for us",
+        "hermia@example.com",
+        "inbox",
+        0,
+        1,
+        1665554020
+      ],
+      [
+        14,
+        "let it be written in eight and eight",
+        "bottom@example.com",
+        "inbox",
+        0,
+        1,
+        1665314896
+      ],
+      [
+        15,
+        "I will not stay thy questions; let me go",
+        "demetrius@example.com",
+        "inbox",
+        0,
+        1,
+        1665388748
+      ],
+      [
+        16,
+        "Seeking sweet favours from this hateful fool",
+        "oberon@example.com",
+        "inbox",
+        1,
+        1,
+        1665553578
+      ],
+      [
+        17,
+        "What are they that do play it?",
+        "theseus@example.com",
+        "inbox",
+        0,
+        1,
+        1665365894
+      ],
+      [
+        18,
+        "The best in this kind are but shadows",
+        "theseus@example.com",
+        "inbox",
+        0,
+        0,
+        1665290247
+      ],
+      [
+        19,
+        "What is Pyramus? a lover, or a tyrant?",
+        "bottom@example.com",
+        "inbox",
+        0,
+        1,
+        1665587964
+      ],
+      [
+        20,
+        "A mote will turn the balance",
+        "demetrius@example.com",
+        "inbox",
+        0,
+        1,
+        1665626747
+      ],
+      [
+        21,
+        "You thief of love! what, have you come by night",
+        "hermia@example.com",
+        "inbox",
+        1,
+        1,
+        1665502228
+      ],
+      [
+        22,
+        "Well roared, Lion.",
+        "demetrius@example.com",
+        "inbox",
+        0,
+        0,
+        1665209744
+      ],
+      [
+        23,
+        "Flute, you must take Thisby on you.",
+        "quince@example.com",
+        "inbox",
+        0,
+        1,
+        1665290420
+      ],
+      [
+        24,
+        "man is but a patched fool",
+        "bottom@example.com",
+        "inbox",
+        0,
+        1,
+        1665236168
+      ],
+      [
+        25,
+        "Lord, what fools these mortals be!",
+        "puck@example.com",
+        "inbox",
+        0,
+        1,
+        1665371560
+      ],
+      [
+        26,
+        "Help me, Lysander, help me!",
+        "hermia@example.com",
+        "inbox",
+        0,
+        1,
+        1665242623
+      ],
+      [
+        27,
+        "Must I speak now?",
+        "flute@example.com",
+        "inbox",
+        0,
+        1,
+        1665324617
+      ],
+      [
+        28,
+        "My ear should catch your voice, my eye your eye",
+        "helena@example.com",
+        "spam",
+        0,
+        1,
+        1665553655
+      ],
+      [
+        29,
+        "What, jealous Oberon!",
+        "titania@example.com",
+        "inbox",
+        0,
+        1,
+        1665711203
+      ],
+      [
+        30,
+        "What is Thisby? a wandering knight?",
+        "flute@example.com",
+        "inbox",
+        0,
+        1,
+        1665512801
+      ],
+      [
+        31,
+        "My legs can keep no pace with my desires",
+        "hermia@example.com",
+        "inbox",
+        0,
+        0,
+        1665283102
+      ],
+      [
+        32,
+        "You, Nick Bottom, are set down for Pyramus.",
+        "quince@example.com",
+        "inbox",
+        0,
+        1,
+        1665553592
+      ],
+      [
+        33,
+        "How easy is a bush supposed a bear!",
+        "theseus@example.com",
+        "inbox",
+        0,
+        1,
+        1665424769
+      ],
+      [
+        34,
+        "do I speak you fair?",
+        "demetrius@example.com",
+        "inbox",
+        0,
+        1,
+        1665720347
+      ],
+      [
+        35,
+        "My Oberon! what visions have I seen!",
+        "titania@example.com",
+        "inbox",
+        0,
+        1,
+        1665359829
+      ],
+      [
+        36,
+        "Your virtue is my privilege: for that",
+        "helena@example.com",
+        "spam",
+        0,
+        1,
+        1665676833
+      ],
+      [
+        37,
+        "Happy be Theseus, our renowned duke!",
+        "egeus@example.com",
+        "spam",
+        0,
+        0,
+        1665634860
+      ],
+      [
+        38,
+        "Go, one of you, find out the forester",
+        "theseus@example.com",
+        "spam",
+        0,
+        0,
+        1665225050
+      ],
+      [
+        39,
+        "The very best at a beast",
+        "demetrius@example.com",
+        "inbox",
+        0,
+        1,
+        1665724886
+      ],
+      [
+        40,
+        "Let him approach.",
+        "theseus@example.com",
+        "inbox",
+        0,
+        1,
+        1665589590
+      ],
+      [
+        41,
+        "I was with Hercules and Cadmus once",
+        "hippolytus@example.com",
+        "inbox",
+        0,
+        1,
+        1665575357
+      ],
+      [
+        42,
+        "But why unkindly didst thou leave me so?",
+        "hermia@example.com",
+        "inbox",
+        0,
+        1,
+        1665272335
+      ],
+      [
+        43,
+        "A foolish heart, that I leave here behind.",
+        "helena@example.com",
+        "inbox",
+        0,
+        0,
+        1665190298
+      ]
+    ]
+  },
+  {
+    "actividad": "Asuntos",
+    "consulta": "SELECT subject FROM email",
+    "columnas": [
+      "subject"
+    ],
+    "filas": [
+      [
+        "Helena is here at hand"
+      ],
+      [
+        "Do I entice you?"
+      ],
+      [
+        "Here is the scroll of every mans name"
+      ],
+      [
+        "How now, spirit! whither wander you?"
+      ],
+      [
+        "I know not by what power I am made bold"
+      ],
+      [
+        "this is a knavery of them to make me afeard"
+      ],
+      [
+        "let it be written in eight and eight"
+      ],
+      [
+        "Here, Peter Quince."
+      ],
+      [
+        "A calendar, a calendar! look in the almanac"
+      ],
+      [
+        "the duke is coming from the temple"
+      ],
+      [
+        "He says they can do nothing in this kind."
+      ],
+      [
+        "Never did mockers waste more idle breath."
+      ],
+      [
+        "Farewell, sweet playfellow: pray thou for us"
+      ],
+      [
+        "let it be written in eight and eight"
+      ],
+      [
+        "I will not stay thy questions; let me go"
+      ],
+      [
+        "Seeking sweet favours from this hateful fool"
+      ],
+      [
+        "What are they that do play it?"
+      ],
+      [
+        "The best in this kind are but shadows"
+      ],
+      [
+        "What is Pyramus? a lover, or a tyrant?"
+      ],
+      [
+        "A mote will turn the balance"
+      ],
+      [
+        "You thief of love! what, have you come by night"
+      ],
+      [
+        "Well roared, Lion."
+      ],
+      [
+        "Flute, you must take Thisby on you."
+      ],
+      [
+        "man is but a patched fool"
+      ],
+      [
+        "Lord, what fools these mortals be!"
+      ],
+      [
+        "Help me, Lysander, help me!"
+      ],
+      [
+        "Must I speak now?"
+      ],
+      [
+        "My ear should catch your voice, my eye your eye"
+      ],
+      [
+        "What, jealous Oberon!"
+      ],
+      [
+        "What is Thisby? a wandering knight?"
+      ],
+      [
+        "My legs can keep no pace with my desires"
+      ],
+      [
+        "You, Nick Bottom, are set down for Pyramus."
+      ],
+      [
+        "How easy is a bush supposed a bear!"
+      ],
+      [
+        "do I speak you fair?"
+      ],
+      [
+        "My Oberon! what visions have I seen!"
+      ],
+      [
+        "Your virtue is my privilege: for that"
+      ],
+      [
+        "Happy be Theseus, our renowned duke!"
+      ],
+      [
+        "Go, one of you, find out the forester"
+      ],
+      [
+        "The very best at a beast"
+      ],
+      [
+        "Let him approach."
+      ],
+      [
+        "I was with Hercules and Cadmus once"
+      ],
+      [
+        "But why unkindly didst thou leave me so?"
+      ],
+      [
+        "A foolish heart, that I leave here behind."
+      ]
+    ]
+  },
+  {
+    "actividad": "Asunto y remitente",
+    "consulta": "SELECT subject, sender FROM email",
+    "columnas": [
+      "subject",
+      "sender"
+    ],
+    "filas": [
+      [
+        "Helena is here at hand",
+        "puck@example.com"
+      ],
+      [
+        "Do I entice you?",
+        "demetrius@example.com"
+      ],
+      [
+        "Here is the scroll of every mans name",
+        "quince@example.com"
+      ],
+      [
+        "How now, spirit! whither wander you?",
+        "puck@example.com"
+      ],
+      [
+        "I know not by what power I am made bold",
+        "hermia@example.com"
+      ],
+      [
+        "this is a knavery of them to make me afeard",
+        "bottom@example.com"
+      ],
+      [
+        "let it be written in eight and eight",
+        "bottom@example.com"
+      ],
+      [
+        "Here, Peter Quince.",
+        "snout@example.com"
+      ],
+      [
+        "A calendar, a calendar! look in the almanac",
+        "bottom@example.com"
+      ],
+      [
+        "the duke is coming from the temple",
+        "snug@example.com"
+      ],
+      [
+        "He says they can do nothing in this kind.",
+        "hippolytus@example.com"
+      ],
+      [
+        "Never did mockers waste more idle breath.",
+        "helena@example.com"
+      ],
+      [
+        "Farewell, sweet playfellow: pray thou for us",
+        "hermia@example.com"
+      ],
+      [
+        "let it be written in eight and eight",
+        "bottom@example.com"
+      ],
+      [
+        "I will not stay thy questions; let me go",
+        "demetrius@example.com"
+      ],
+      [
+        "Seeking sweet favours from this hateful fool",
+        "oberon@example.com"
+      ],
+      [
+        "What are they that do play it?",
+        "theseus@example.com"
+      ],
+      [
+        "The best in this kind are but shadows",
+        "theseus@example.com"
+      ],
+      [
+        "What is Pyramus? a lover, or a tyrant?",
+        "bottom@example.com"
+      ],
+      [
+        "A mote will turn the balance",
+        "demetrius@example.com"
+      ],
+      [
+        "You thief of love! what, have you come by night",
+        "hermia@example.com"
+      ],
+      [
+        "Well roared, Lion.",
+        "demetrius@example.com"
+      ],
+      [
+        "Flute, you must take Thisby on you.",
+        "quince@example.com"
+      ],
+      [
+        "man is but a patched fool",
+        "bottom@example.com"
+      ],
+      [
+        "Lord, what fools these mortals be!",
+        "puck@example.com"
+      ],
+      [
+        "Help me, Lysander, help me!",
+        "hermia@example.com"
+      ],
+      [
+        "Must I speak now?",
+        "flute@example.com"
+      ],
+      [
+        "My ear should catch your voice, my eye your eye",
+        "helena@example.com"
+      ],
+      [
+        "What, jealous Oberon!",
+        "titania@example.com"
+      ],
+      [
+        "What is Thisby? a wandering knight?",
+        "flute@example.com"
+      ],
+      [
+        "My legs can keep no pace with my desires",
+        "hermia@example.com"
+      ],
+      [
+        "You, Nick Bottom, are set down for Pyramus.",
+        "quince@example.com"
+      ],
+      [
+        "How easy is a bush supposed a bear!",
+        "theseus@example.com"
+      ],
+      [
+        "do I speak you fair?",
+        "demetrius@example.com"
+      ],
+      [
+        "My Oberon! what visions have I seen!",
+        "titania@example.com"
+      ],
+      [
+        "Your virtue is my privilege: for that",
+        "helena@example.com"
+      ],
+      [
+        "Happy be Theseus, our renowned duke!",
+        "egeus@example.com"
+      ],
+      [
+        "Go, one of you, find out the forester",
+        "theseus@example.com"
+      ],
+      [
+        "The very best at a beast",
+        "demetrius@example.com"
+      ],
+      [
+        "Let him approach.",
+        "theseus@example.com"
+      ],
+      [
+        "I was with Hercules and Cadmus once",
+        "hippolytus@example.com"
+      ],
+      [
+        "But why unkindly didst thou leave me so?",
+        "hermia@example.com"
+      ],
+      [
+        "A foolish heart, that I leave here behind.",
+        "helena@example.com"
+      ]
+    ]
+  },
+  {
+    "actividad": "Cantidad total",
+    "consulta": "SELECT COUNT(*) FROM email",
+    "columnas": [
+      "COUNT(*)"
+    ],
+    "filas": [
+      [
+        43
+      ]
+    ]
+  },
+  {
+    "actividad": "Fecha más reciente",
+    "consulta": "SELECT MAX(received) FROM email",
+    "columnas": [
+      "MAX(received)"
+    ],
+    "filas": [
+      [
+        1665735460
+      ]
+    ]
+  },
+  {
+    "actividad": "Remitentes",
+    "consulta": "SELECT sender FROM email",
+    "columnas": [
+      "sender"
+    ],
+    "filas": [
+      [
+        "puck@example.com"
+      ],
+      [
+        "demetrius@example.com"
+      ],
+      [
+        "quince@example.com"
+      ],
+      [
+        "puck@example.com"
+      ],
+      [
+        "hermia@example.com"
+      ],
+      [
+        "bottom@example.com"
+      ],
+      [
+        "bottom@example.com"
+      ],
+      [
+        "snout@example.com"
+      ],
+      [
+        "bottom@example.com"
+      ],
+      [
+        "snug@example.com"
+      ],
+      [
+        "hippolytus@example.com"
+      ],
+      [
+        "helena@example.com"
+      ],
+      [
+        "hermia@example.com"
+      ],
+      [
+        "bottom@example.com"
+      ],
+      [
+        "demetrius@example.com"
+      ],
+      [
+        "oberon@example.com"
+      ],
+      [
+        "theseus@example.com"
+      ],
+      [
+        "theseus@example.com"
+      ],
+      [
+        "bottom@example.com"
+      ],
+      [
+        "demetrius@example.com"
+      ],
+      [
+        "hermia@example.com"
+      ],
+      [
+        "demetrius@example.com"
+      ],
+      [
+        "quince@example.com"
+      ],
+      [
+        "bottom@example.com"
+      ],
+      [
+        "puck@example.com"
+      ],
+      [
+        "hermia@example.com"
+      ],
+      [
+        "flute@example.com"
+      ],
+      [
+        "helena@example.com"
+      ],
+      [
+        "titania@example.com"
+      ],
+      [
+        "flute@example.com"
+      ],
+      [
+        "hermia@example.com"
+      ],
+      [
+        "quince@example.com"
+      ],
+      [
+        "theseus@example.com"
+      ],
+      [
+        "demetrius@example.com"
+      ],
+      [
+        "titania@example.com"
+      ],
+      [
+        "helena@example.com"
+      ],
+      [
+        "egeus@example.com"
+      ],
+      [
+        "theseus@example.com"
+      ],
+      [
+        "demetrius@example.com"
+      ],
+      [
+        "theseus@example.com"
+      ],
+      [
+        "hippolytus@example.com"
+      ],
+      [
+        "hermia@example.com"
+      ],
+      [
+        "helena@example.com"
+      ]
+    ]
+  },
+  {
+    "actividad": "Remitentes distintos",
+    "consulta": "SELECT DISTINCT sender FROM email",
+    "columnas": [
+      "sender"
+    ],
+    "filas": [
+      [
+        "puck@example.com"
+      ],
+      [
+        "demetrius@example.com"
+      ],
+      [
+        "quince@example.com"
+      ],
+      [
+        "hermia@example.com"
+      ],
+      [
+        "bottom@example.com"
+      ],
+      [
+        "snout@example.com"
+      ],
+      [
+        "snug@example.com"
+      ],
+      [
+        "hippolytus@example.com"
+      ],
+      [
+        "helena@example.com"
+      ],
+      [
+        "oberon@example.com"
+      ],
+      [
+        "theseus@example.com"
+      ],
+      [
+        "flute@example.com"
+      ],
+      [
+        "titania@example.com"
+      ],
+      [
+        "egeus@example.com"
+      ]
+    ]
+  },
+  {
+    "actividad": "Cantidad de remitentes distintos",
+    "consulta": "SELECT COUNT(DISTINCT sender) FROM email",
+    "columnas": [
+      "COUNT(DISTINCT sender)"
+    ],
+    "filas": [
+      [
+        14
+      ]
+    ]
+  },
+  {
+    "actividad": "Recibidos",
+    "consulta": "SELECT * FROM email WHERE folder = 'inbox'",
+    "columnas": [
+      "id",
+      "subject",
+      "sender",
+      "folder",
+      "starred",
+      "read",
+      "received"
+    ],
+    "filas": [
+      [
+        2,
+        "Do I entice you?",
+        "demetrius@example.com",
+        "inbox",
+        0,
+        0,
+        1665727707
+      ],
+      [
+        3,
+        "Here is the scroll of every mans name",
+        "quince@example.com",
+        "inbox",
+        1,
+        1,
+        1665233914
+      ],
+      [
+        4,
+        "How now, spirit! whither wander you?",
+        "puck@example.com",
+        "inbox",
+        0,
+        1,
+        1665735460
+      ],
+      [
+        6,
+        "this is a knavery of them to make me afeard",
+        "bottom@example.com",
+        "inbox",
+        0,
+        1,
+        1665706846
+      ],
+      [
+        7,
+        "let it be written in eight and eight",
+        "bottom@example.com",
+        "inbox",
+        0,
+        1,
+        1665314896
+      ],
+      [
+        8,
+        "Here, Peter Quince.",
+        "snout@example.com",
+        "inbox",
+        0,
+        1,
+        1665507833
+      ],
+      [
+        9,
+        "A calendar, a calendar! look in the almanac",
+        "bottom@example.com",
+        "inbox",
+        0,
+        1,
+        1665189157
+      ],
+      [
+        10,
+        "the duke is coming from the temple",
+        "snug@example.com",
+        "inbox",
+        0,
+        1,
+        1665393161
+      ],
+      [
+        11,
+        "He says they can do nothing in this kind.",
+        "hippolytus@example.com",
+        "inbox",
+        0,
+        1,
+        1665224532
+      ],
+      [
+        13,
+        "Farewell, sweet playfellow: pray thou for us",
+        "hermia@example.com",
+        "inbox",
+        0,
+        1,
+        1665554020
+      ],
+      [
+        14,
+        "let it be written in eight and eight",
+        "bottom@example.com",
+        "inbox",
+        0,
+        1,
+        1665314896
+      ],
+      [
+        15,
+        "I will not stay thy questions; let me go",
+        "demetrius@example.com",
+        "inbox",
+        0,
+        1,
+        1665388748
+      ],
+      [
+        16,
+        "Seeking sweet favours from this hateful fool",
+        "oberon@example.com",
+        "inbox",
+        1,
+        1,
+        1665553578
+      ],
+      [
+        17,
+        "What are they that do play it?",
+        "theseus@example.com",
+        "inbox",
+        0,
+        1,
+        1665365894
+      ],
+      [
+        18,
+        "The best in this kind are but shadows",
+        "theseus@example.com",
+        "inbox",
+        0,
+        0,
+        1665290247
+      ],
+      [
+        19,
+        "What is Pyramus? a lover, or a tyrant?",
+        "bottom@example.com",
+        "inbox",
+        0,
+        1,
+        1665587964
+      ],
+      [
+        20,
+        "A mote will turn the balance",
+        "demetrius@example.com",
+        "inbox",
+        0,
+        1,
+        1665626747
+      ],
+      [
+        21,
+        "You thief of love! what, have you come by night",
+        "hermia@example.com",
+        "inbox",
+        1,
+        1,
+        1665502228
+      ],
+      [
+        22,
+        "Well roared, Lion.",
+        "demetrius@example.com",
+        "inbox",
+        0,
+        0,
+        1665209744
+      ],
+      [
+        23,
+        "Flute, you must take Thisby on you.",
+        "quince@example.com",
+        "inbox",
+        0,
+        1,
+        1665290420
+      ],
+      [
+        24,
+        "man is but a patched fool",
+        "bottom@example.com",
+        "inbox",
+        0,
+        1,
+        1665236168
+      ],
+      [
+        25,
+        "Lord, what fools these mortals be!",
+        "puck@example.com",
+        "inbox",
+        0,
+        1,
+        1665371560
+      ],
+      [
+        26,
+        "Help me, Lysander, help me!",
+        "hermia@example.com",
+        "inbox",
+        0,
+        1,
+        1665242623
+      ],
+      [
+        27,
+        "Must I speak now?",
+        "flute@example.com",
+        "inbox",
+        0,
+        1,
+        1665324617
+      ],
+      [
+        29,
+        "What, jealous Oberon!",
+        "titania@example.com",
+        "inbox",
+        0,
+        1,
+        1665711203
+      ],
+      [
+        30,
+        "What is Thisby? a wandering knight?",
+        "flute@example.com",
+        "inbox",
+        0,
+        1,
+        1665512801
+      ],
+      [
+        31,
+        "My legs can keep no pace with my desires",
+        "hermia@example.com",
+        "inbox",
+        0,
+        0,
+        1665283102
+      ],
+      [
+        32,
+        "You, Nick Bottom, are set down for Pyramus.",
+        "quince@example.com",
+        "inbox",
+        0,
+        1,
+        1665553592
+      ],
+      [
+        33,
+        "How easy is a bush supposed a bear!",
+        "theseus@example.com",
+        "inbox",
+        0,
+        1,
+        1665424769
+      ],
+      [
+        34,
+        "do I speak you fair?",
+        "demetrius@example.com",
+        "inbox",
+        0,
+        1,
+        1665720347
+      ],
+      [
+        35,
+        "My Oberon! what visions have I seen!",
+        "titania@example.com",
+        "inbox",
+        0,
+        1,
+        1665359829
+      ],
+      [
+        39,
+        "The very best at a beast",
+        "demetrius@example.com",
+        "inbox",
+        0,
+        1,
+        1665724886
+      ],
+      [
+        40,
+        "Let him approach.",
+        "theseus@example.com",
+        "inbox",
+        0,
+        1,
+        1665589590
+      ],
+      [
+        41,
+        "I was with Hercules and Cadmus once",
+        "hippolytus@example.com",
+        "inbox",
+        0,
+        1,
+        1665575357
+      ],
+      [
+        42,
+        "But why unkindly didst thou leave me so?",
+        "hermia@example.com",
+        "inbox",
+        0,
+        1,
+        1665272335
+      ],
+      [
+        43,
+        "A foolish heart, that I leave here behind.",
+        "helena@example.com",
+        "inbox",
+        0,
+        0,
+        1665190298
+      ]
+    ]
+  },
+  {
+    "actividad": "Recibidos sin leer",
+    "consulta": "SELECT * FROM email WHERE folder = 'inbox' AND read = false",
+    "columnas": [
+      "id",
+      "subject",
+      "sender",
+      "folder",
+      "starred",
+      "read",
+      "received"
+    ],
+    "filas": [
+      [
+        2,
+        "Do I entice you?",
+        "demetrius@example.com",
+        "inbox",
+        0,
+        0,
+        1665727707
+      ],
+      [
+        18,
+        "The best in this kind are but shadows",
+        "theseus@example.com",
+        "inbox",
+        0,
+        0,
+        1665290247
+      ],
+      [
+        22,
+        "Well roared, Lion.",
+        "demetrius@example.com",
+        "inbox",
+        0,
+        0,
+        1665209744
+      ],
+      [
+        31,
+        "My legs can keep no pace with my desires",
+        "hermia@example.com",
+        "inbox",
+        0,
+        0,
+        1665283102
+      ],
+      [
+        43,
+        "A foolish heart, that I leave here behind.",
+        "helena@example.com",
+        "inbox",
+        0,
+        0,
+        1665190298
+      ]
+    ]
+  },
+  {
+    "actividad": "Importantes o destacados",
+    "consulta": "SELECT * FROM email WHERE folder = 'important' OR starred = true",
+    "columnas": [
+      "id",
+      "subject",
+      "sender",
+      "folder",
+      "starred",
+      "read",
+      "received"
+    ],
+    "filas": [
+      [
+        3,
+        "Here is the scroll of every mans name",
+        "quince@example.com",
+        "inbox",
+        1,
+        1,
+        1665233914
+      ],
+      [
+        12,
+        "Never did mockers waste more idle breath.",
+        "helena@example.com",
+        "spam",
+        1,
+        1,
+        1665534357
+      ],
+      [
+        16,
+        "Seeking sweet favours from this hateful fool",
+        "oberon@example.com",
+        "inbox",
+        1,
+        1,
+        1665553578
+      ],
+      [
+        21,
+        "You thief of love! what, have you come by night",
+        "hermia@example.com",
+        "inbox",
+        1,
+        1,
+        1665502228
+      ]
+    ]
+  },
+  {
+    "actividad": "Asuntos que contienen fool",
+    "consulta": "SELECT COUNT(*) FROM email WHERE subject LIKE '%fool%'",
+    "columnas": [
+      "COUNT(*)"
+    ],
+    "filas": [
+      [
+        4
+      ]
+    ]
+  },
+  {
+    "actividad": "Asuntos terminados en fool",
+    "consulta": "SELECT * FROM email WHERE subject LIKE '%fool'",
+    "columnas": [
+      "id",
+      "subject",
+      "sender",
+      "folder",
+      "starred",
+      "read",
+      "received"
+    ],
+    "filas": [
+      [
+        16,
+        "Seeking sweet favours from this hateful fool",
+        "oberon@example.com",
+        "inbox",
+        1,
+        1,
+        1665553578
+      ],
+      [
+        24,
+        "man is but a patched fool",
+        "bottom@example.com",
+        "inbox",
+        0,
+        1,
+        1665236168
+      ]
+    ]
+  },
+  {
+    "actividad": "Remitentes que empiezan con h",
+    "consulta": "SELECT DISTINCT sender FROM email WHERE sender LIKE 'h%'",
+    "columnas": [
+      "sender"
+    ],
+    "filas": [
+      [
+        "hermia@example.com"
+      ],
+      [
+        "hippolytus@example.com"
+      ],
+      [
+        "helena@example.com"
+      ]
+    ]
+  },
+  {
+    "actividad": "Cantidad por carpeta",
+    "consulta": "SELECT folder, COUNT(*) FROM email GROUP BY folder",
+    "columnas": [
+      "folder",
+      "COUNT(*)"
+    ],
+    "filas": [
+      [
+        "inbox",
+        36
+      ],
+      [
+        "spam",
+        7
+      ]
+    ]
+  },
+  {
+    "actividad": "Más recientes primero",
+    "consulta": "SELECT * FROM email ORDER BY received DESC",
+    "columnas": [
+      "id",
+      "subject",
+      "sender",
+      "folder",
+      "starred",
+      "read",
+      "received"
+    ],
+    "filas": [
+      [
+        4,
+        "How now, spirit! whither wander you?",
+        "puck@example.com",
+        "inbox",
+        0,
+        1,
+        1665735460
+      ],
+      [
+        2,
+        "Do I entice you?",
+        "demetrius@example.com",
+        "inbox",
+        0,
+        0,
+        1665727707
+      ],
+      [
+        39,
+        "The very best at a beast",
+        "demetrius@example.com",
+        "inbox",
+        0,
+        1,
+        1665724886
+      ],
+      [
+        34,
+        "do I speak you fair?",
+        "demetrius@example.com",
+        "inbox",
+        0,
+        1,
+        1665720347
+      ],
+      [
+        29,
+        "What, jealous Oberon!",
+        "titania@example.com",
+        "inbox",
+        0,
+        1,
+        1665711203
+      ],
+      [
+        6,
+        "this is a knavery of them to make me afeard",
+        "bottom@example.com",
+        "inbox",
+        0,
+        1,
+        1665706846
+      ],
+      [
+        36,
+        "Your virtue is my privilege: for that",
+        "helena@example.com",
+        "spam",
+        0,
+        1,
+        1665676833
+      ],
+      [
+        37,
+        "Happy be Theseus, our renowned duke!",
+        "egeus@example.com",
+        "spam",
+        0,
+        0,
+        1665634860
+      ],
+      [
+        20,
+        "A mote will turn the balance",
+        "demetrius@example.com",
+        "inbox",
+        0,
+        1,
+        1665626747
+      ],
+      [
+        40,
+        "Let him approach.",
+        "theseus@example.com",
+        "inbox",
+        0,
+        1,
+        1665589590
+      ],
+      [
+        19,
+        "What is Pyramus? a lover, or a tyrant?",
+        "bottom@example.com",
+        "inbox",
+        0,
+        1,
+        1665587964
+      ],
+      [
+        41,
+        "I was with Hercules and Cadmus once",
+        "hippolytus@example.com",
+        "inbox",
+        0,
+        1,
+        1665575357
+      ],
+      [
+        1,
+        "Helena is here at hand",
+        "puck@example.com",
+        "spam",
+        0,
+        1,
+        1665556551
+      ],
+      [
+        13,
+        "Farewell, sweet playfellow: pray thou for us",
+        "hermia@example.com",
+        "inbox",
+        0,
+        1,
+        1665554020
+      ],
+      [
+        28,
+        "My ear should catch your voice, my eye your eye",
+        "helena@example.com",
+        "spam",
+        0,
+        1,
+        1665553655
+      ],
+      [
+        32,
+        "You, Nick Bottom, are set down for Pyramus.",
+        "quince@example.com",
+        "inbox",
+        0,
+        1,
+        1665553592
+      ],
+      [
+        16,
+        "Seeking sweet favours from this hateful fool",
+        "oberon@example.com",
+        "inbox",
+        1,
+        1,
+        1665553578
+      ],
+      [
+        12,
+        "Never did mockers waste more idle breath.",
+        "helena@example.com",
+        "spam",
+        1,
+        1,
+        1665534357
+      ],
+      [
+        30,
+        "What is Thisby? a wandering knight?",
+        "flute@example.com",
+        "inbox",
+        0,
+        1,
+        1665512801
+      ],
+      [
+        8,
+        "Here, Peter Quince.",
+        "snout@example.com",
+        "inbox",
+        0,
+        1,
+        1665507833
+      ],
+      [
+        21,
+        "You thief of love! what, have you come by night",
+        "hermia@example.com",
+        "inbox",
+        1,
+        1,
+        1665502228
+      ],
+      [
+        33,
+        "How easy is a bush supposed a bear!",
+        "theseus@example.com",
+        "inbox",
+        0,
+        1,
+        1665424769
+      ],
+      [
+        10,
+        "the duke is coming from the temple",
+        "snug@example.com",
+        "inbox",
+        0,
+        1,
+        1665393161
+      ],
+      [
+        15,
+        "I will not stay thy questions; let me go",
+        "demetrius@example.com",
+        "inbox",
+        0,
+        1,
+        1665388748
+      ],
+      [
+        25,
+        "Lord, what fools these mortals be!",
+        "puck@example.com",
+        "inbox",
+        0,
+        1,
+        1665371560
+      ],
+      [
+        17,
+        "What are they that do play it?",
+        "theseus@example.com",
+        "inbox",
+        0,
+        1,
+        1665365894
+      ],
+      [
+        35,
+        "My Oberon! what visions have I seen!",
+        "titania@example.com",
+        "inbox",
+        0,
+        1,
+        1665359829
+      ],
+      [
+        27,
+        "Must I speak now?",
+        "flute@example.com",
+        "inbox",
+        0,
+        1,
+        1665324617
+      ],
+      [
+        7,
+        "let it be written in eight and eight",
+        "bottom@example.com",
+        "inbox",
+        0,
+        1,
+        1665314896
+      ],
+      [
+        14,
+        "let it be written in eight and eight",
+        "bottom@example.com",
+        "inbox",
+        0,
+        1,
+        1665314896
+      ],
+      [
+        23,
+        "Flute, you must take Thisby on you.",
+        "quince@example.com",
+        "inbox",
+        0,
+        1,
+        1665290420
+      ],
+      [
+        18,
+        "The best in this kind are but shadows",
+        "theseus@example.com",
+        "inbox",
+        0,
+        0,
+        1665290247
+      ],
+      [
+        31,
+        "My legs can keep no pace with my desires",
+        "hermia@example.com",
+        "inbox",
+        0,
+        0,
+        1665283102
+      ],
+      [
+        42,
+        "But why unkindly didst thou leave me so?",
+        "hermia@example.com",
+        "inbox",
+        0,
+        1,
+        1665272335
+      ],
+      [
+        26,
+        "Help me, Lysander, help me!",
+        "hermia@example.com",
+        "inbox",
+        0,
+        1,
+        1665242623
+      ],
+      [
+        24,
+        "man is but a patched fool",
+        "bottom@example.com",
+        "inbox",
+        0,
+        1,
+        1665236168
+      ],
+      [
+        3,
+        "Here is the scroll of every mans name",
+        "quince@example.com",
+        "inbox",
+        1,
+        1,
+        1665233914
+      ],
+      [
+        38,
+        "Go, one of you, find out the forester",
+        "theseus@example.com",
+        "spam",
+        0,
+        0,
+        1665225050
+      ],
+      [
+        11,
+        "He says they can do nothing in this kind.",
+        "hippolytus@example.com",
+        "inbox",
+        0,
+        1,
+        1665224532
+      ],
+      [
+        22,
+        "Well roared, Lion.",
+        "demetrius@example.com",
+        "inbox",
+        0,
+        0,
+        1665209744
+      ],
+      [
+        5,
+        "I know not by what power I am made bold",
+        "hermia@example.com",
+        "spam",
+        0,
+        1,
+        1665209151
+      ],
+      [
+        43,
+        "A foolish heart, that I leave here behind.",
+        "helena@example.com",
+        "inbox",
+        0,
+        0,
+        1665190298
+      ],
+      [
+        9,
+        "A calendar, a calendar! look in the almanac",
+        "bottom@example.com",
+        "inbox",
+        0,
+        1,
+        1665189157
+      ]
+    ]
+  },
+  {
+    "actividad": "Búsqueda de fool por fecha",
+    "consulta": "SELECT * FROM email WHERE subject LIKE '%fool%' ORDER BY received ASC",
+    "columnas": [
+      "id",
+      "subject",
+      "sender",
+      "folder",
+      "starred",
+      "read",
+      "received"
+    ],
+    "filas": [
+      [
+        43,
+        "A foolish heart, that I leave here behind.",
+        "helena@example.com",
+        "inbox",
+        0,
+        0,
+        1665190298
+      ],
+      [
+        24,
+        "man is but a patched fool",
+        "bottom@example.com",
+        "inbox",
+        0,
+        1,
+        1665236168
+      ],
+      [
+        25,
+        "Lord, what fools these mortals be!",
+        "puck@example.com",
+        "inbox",
+        0,
+        1,
+        1665371560
+      ],
+      [
+        16,
+        "Seeking sweet favours from this hateful fool",
+        "oberon@example.com",
+        "inbox",
+        1,
+        1,
+        1665553578
+      ]
+    ]
+  },
+  {
+    "actividad": "Primera página",
+    "consulta": "SELECT * FROM email WHERE folder = 'inbox' ORDER BY received DESC LIMIT 10",
+    "columnas": [
+      "id",
+      "subject",
+      "sender",
+      "folder",
+      "starred",
+      "read",
+      "received"
+    ],
+    "filas": [
+      [
+        4,
+        "How now, spirit! whither wander you?",
+        "puck@example.com",
+        "inbox",
+        0,
+        1,
+        1665735460
+      ],
+      [
+        2,
+        "Do I entice you?",
+        "demetrius@example.com",
+        "inbox",
+        0,
+        0,
+        1665727707
+      ],
+      [
+        39,
+        "The very best at a beast",
+        "demetrius@example.com",
+        "inbox",
+        0,
+        1,
+        1665724886
+      ],
+      [
+        34,
+        "do I speak you fair?",
+        "demetrius@example.com",
+        "inbox",
+        0,
+        1,
+        1665720347
+      ],
+      [
+        29,
+        "What, jealous Oberon!",
+        "titania@example.com",
+        "inbox",
+        0,
+        1,
+        1665711203
+      ],
+      [
+        6,
+        "this is a knavery of them to make me afeard",
+        "bottom@example.com",
+        "inbox",
+        0,
+        1,
+        1665706846
+      ],
+      [
+        20,
+        "A mote will turn the balance",
+        "demetrius@example.com",
+        "inbox",
+        0,
+        1,
+        1665626747
+      ],
+      [
+        40,
+        "Let him approach.",
+        "theseus@example.com",
+        "inbox",
+        0,
+        1,
+        1665589590
+      ],
+      [
+        19,
+        "What is Pyramus? a lover, or a tyrant?",
+        "bottom@example.com",
+        "inbox",
+        0,
+        1,
+        1665587964
+      ],
+      [
+        41,
+        "I was with Hercules and Cadmus once",
+        "hippolytus@example.com",
+        "inbox",
+        0,
+        1,
+        1665575357
+      ]
+    ]
+  },
+  {
+    "actividad": "Segunda página",
+    "consulta": "SELECT * FROM email WHERE folder = 'inbox' ORDER BY received DESC LIMIT 10 OFFSET 10",
+    "columnas": [
+      "id",
+      "subject",
+      "sender",
+      "folder",
+      "starred",
+      "read",
+      "received"
+    ],
+    "filas": [
+      [
+        13,
+        "Farewell, sweet playfellow: pray thou for us",
+        "hermia@example.com",
+        "inbox",
+        0,
+        1,
+        1665554020
+      ],
+      [
+        32,
+        "You, Nick Bottom, are set down for Pyramus.",
+        "quince@example.com",
+        "inbox",
+        0,
+        1,
+        1665553592
+      ],
+      [
+        16,
+        "Seeking sweet favours from this hateful fool",
+        "oberon@example.com",
+        "inbox",
+        1,
+        1,
+        1665553578
+      ],
+      [
+        30,
+        "What is Thisby? a wandering knight?",
+        "flute@example.com",
+        "inbox",
+        0,
+        1,
+        1665512801
+      ],
+      [
+        8,
+        "Here, Peter Quince.",
+        "snout@example.com",
+        "inbox",
+        0,
+        1,
+        1665507833
+      ],
+      [
+        21,
+        "You thief of love! what, have you come by night",
+        "hermia@example.com",
+        "inbox",
+        1,
+        1,
+        1665502228
+      ],
+      [
+        33,
+        "How easy is a bush supposed a bear!",
+        "theseus@example.com",
+        "inbox",
+        0,
+        1,
+        1665424769
+      ],
+      [
+        10,
+        "the duke is coming from the temple",
+        "snug@example.com",
+        "inbox",
+        0,
+        1,
+        1665393161
+      ],
+      [
+        15,
+        "I will not stay thy questions; let me go",
+        "demetrius@example.com",
+        "inbox",
+        0,
+        1,
+        1665388748
+      ],
+      [
+        25,
+        "Lord, what fools these mortals be!",
+        "puck@example.com",
+        "inbox",
+        0,
+        1,
+        1665371560
+      ]
+    ]
+  },
+  {
+    "actividad": "Insertar",
+    "id": 44,
+    "filas": [
+      [
+        44,
+        "Lorem ipsum dolor sit amet",
+        "sender@example.com",
+        "inbox",
+        0,
+        0,
+        "2026-10-26 20:57:37"
+      ]
+    ]
+  },
+  {
+    "actividad": "Actualizar",
+    "id": 44,
+    "filas": [
+      [
+        1
+      ]
+    ]
+  },
+  {
+    "actividad": "Eliminar",
+    "id": 44,
+    "filas": []
+  }
+]
