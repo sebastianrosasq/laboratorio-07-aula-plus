@@ -227,6 +227,14 @@ private fun UserContent(
 ) {
     Column(Modifier.fillMaxSize().padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
         Text("Registra y consulta usuarios en la tabla User.", style = MaterialTheme.typography.bodyMedium)
+        OutlinedTextField(
+            value = users.lastOrNull()?.uid?.toString().orEmpty(),
+            onValueChange = {},
+            modifier = Modifier.fillMaxWidth(),
+            label = { Text("Último ID (solo lectura)") },
+            readOnly = true,
+            singleLine = true
+        )
         OutlinedTextField(firstName, onFirstNameChange, Modifier.fillMaxWidth(), label = { Text("Nombre") }, singleLine = true)
         OutlinedTextField(lastName, onLastNameChange, Modifier.fillMaxWidth(), label = { Text("Apellido") }, singleLine = true)
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
