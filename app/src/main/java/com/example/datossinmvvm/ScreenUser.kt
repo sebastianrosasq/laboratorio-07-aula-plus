@@ -1,8 +1,8 @@
 package com.example.datossinmvvm
 
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.horizontalScroll
-import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
@@ -45,6 +45,11 @@ import com.example.datossinmvvm.data.AttendanceRecord
 import com.example.datossinmvvm.data.User
 import com.example.datossinmvvm.data.UserDatabase
 import kotlinx.coroutines.launch
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
+
+private fun today(): String = SimpleDateFormat("dd/MM/yyyy", Locale.getDefault()).format(Date())
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -63,7 +68,7 @@ fun ScreenUser() {
     var selectedAttendanceId by rememberSaveable { mutableStateOf<Int?>(null) }
     var studentName by rememberSaveable { mutableStateOf("") }
     var classroom by rememberSaveable { mutableStateOf("5to A") }
-    var attendanceDate by rememberSaveable { mutableStateOf("07/10/2026") }
+    var attendanceDate by rememberSaveable { mutableStateOf(today()) }
     var attendanceStatus by rememberSaveable { mutableStateOf("Presente") }
     var attendanceRecords by remember { mutableStateOf(emptyList<AttendanceRecord>()) }
     var message by rememberSaveable { mutableStateOf("Listo para registrar información en Room.") }
@@ -110,7 +115,7 @@ fun ScreenUser() {
         selectedAttendanceId = null
         studentName = ""
         classroom = "5to A"
-        attendanceDate = "07/10/2026"
+        attendanceDate = today()
         attendanceStatus = "Presente"
     }
 
@@ -196,8 +201,8 @@ fun ScreenUser() {
                 .imePadding()
         ) {
             PrimaryTabRow(selectedTabIndex = selectedTab) {
-                Tab(selected = selectedTab == 0, onClick = { selectedTab = 0 }, text = { Text("Parte guiada") })
-                Tab(selected = selectedTab == 1, onClick = { selectedTab = 1 }, text = { Text("CRUD asistencia") })
+                Tab(selected = selectedTab == 0, onClick = { selectedTab = 0; message = "Registra y consulta usuarios." }, text = { Text("Parte guiada") })
+                Tab(selected = selectedTab == 1, onClick = { selectedTab = 1; message = "Registra y consulta asistencias." }, text = { Text("CRUD asistencia") })
             }
             if (selectedTab == 0) {
                 UserContent(firstName, lastName, users, message, { firstName = it }, { lastName = it }, ::addUser, ::refreshUsers, ::deleteLastUser)
@@ -259,6 +264,7 @@ private fun UserContent(
     }
 }
 
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun AttendanceContent(
     studentName: String, classroom: String, attendanceDate: String, attendanceStatus: String,
@@ -276,7 +282,7 @@ private fun AttendanceContent(
         item { OutlinedTextField(attendanceDate, onDateChange, Modifier.fillMaxWidth(), label = { Text("Fecha") }, placeholder = { Text("dd/mm/aaaa") }, singleLine = true) }
         item {
             Text("Estado de asistencia", fontWeight = FontWeight.SemiBold)
-            Row(Modifier.horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+            FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
                 listOf("Presente", "Tardanza", "Ausente", "Justificado").forEach { status ->
                     FilterChip(attendanceStatus == status, { onStatusChange(status) }, label = { Text(status) })
                 }
